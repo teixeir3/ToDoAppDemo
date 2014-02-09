@@ -22,6 +22,8 @@ class TasksController < ApplicationController
     respond_to do |format|
       format.html {render :index }
       format.json {render :json => @tasks}
-
+    end
   end
+
+
 end
